@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  height: 950px;
+  background: #202020;
+}
+
+.header__images {
+  max-width: 768px;
+  height: 584px;
+  background-image: url("../asset/tablet.png");
+  background-position: center;
+  background-size: cover;
+}
