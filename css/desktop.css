@@ -26,15 +26,3 @@
   height: 100vh;
   clip-path: polygon(0 0, 81% 0, 101% 100%, 0% 100%);
 }
-
-@media (min-width: 1280px) {
-  .poligono__two {
-    top: 720px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .poligono__two {
-    top: 820px;
-  }
-}
