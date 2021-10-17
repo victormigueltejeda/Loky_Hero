@@ -1,13 +1,34 @@
-.header {
-  width: 100%;
-  height: 950px;
-  background: #202020;
-}
-
 .header__images {
-  max-width: 768px;
-  height: 584px;
+  min-width: 768px;
+  height: 552px;
   background-image: url("../asset/tablet.png");
   background-position: center;
   background-size: cover;
+}
+
+.header__content--img {
+  top: 47px;
+  width: 163.51px;
+  height: 67.47px;
+  background-image: url("../asset/Dacotablet.png");
+}
+
+.header__content h4 {
+  margin-top: 70px;
+}
+
+.header__content {
+  width: 640px;
+  height: 338px;
+}
+
+@media (min-width: 834px) {
+  .header__content {
+    width: 640px;
+    height: 426px;
+  }
+
+  .header__content--img {
+    top: 52px;
+  }
 }
